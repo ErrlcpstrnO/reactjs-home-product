@@ -1,0 +1,176 @@
+
+html{
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+}
+body{
+  margin: 0;
+  height: 100vh;
+  font-size: 1.6rem;
+  font-family:Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(18,18,18);
+
+}
+#root{
+  height: 100%;
+}
+/* Layout*/
+
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+  'header'
+  'main'
+  'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100%;
+}
+
+header{
+  grid-area: header;
+  background-color: teal;
+
+}
+main{
+  grid-area: main;
+  padding: 1rem;
+
+}
+footer{
+  grid-area: footer;
+  background-color: #203040;
+  color: whitesmoke;
+}
+
+/* common layout */
+a{
+  text-decoration: none;
+  color: rgb(141, 138, 138);
+}
+
+a:hover{
+  color: tomato;
+}
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li{
+  margin-top: 1rem;
+}
+button{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
+  font-size: 1.6rem;
+  font-family:Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+button:hover{
+  border: 0.1rem #404040 solid;
+}
+button.primary{
+  background-color: #f0c040;
+}
+button.block{
+  width: 100%;
+}
+header a{
+  color: whitesmoke;
+  padding: 1rem;
+
+}
+
+a.brand{
+  color: whitesmoke;
+  font-size: 3rem;
+  font-weight: bold;
+}
+a.product{
+  color: whitesmoke;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(158, 154, 154);
+}
+
+.row.center{
+  justify-content: center;
+
+}
+.row.top{
+  align-items: flex-start;
+}
+.col-1{
+  flex: 1 1 25rem;
+}
+.col-2{
+  flex: 2 1 50rem;
+  margin: 1rem;
+}
+img{
+  border-radius: 0.5rem;
+
+}
+img.medium{
+  max-width: 29rem;
+  width: 100%;
+
+}
+img.large{
+  width: 100%;
+}
+h2.title{
+  margin-top: 1rem;
+}
+.card{
+  border: 0.1rem#5e5b5b solid;
+  background: rgb(18,18,18);
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+.card:hover{
+  border: 0.1rem tomato solid;
+}
+
+.card-body{
+  padding: 1rem;
+
+}
+.card-body > *{
+  padding: 1rem;
+}
+.price{
+  font-size: 2rem;
+  color: rgb(245,245,245);
+
+}
+.rating span{
+  color: #bd9e4b;
+  margin: 0.1rem;
+}
+
+.rating span:last-child{
+  color: #404040;
+}
+#review{
+  color: #bd9e4b;
+  padding: 1rem;
+}
+.success{
+  color: green;
+}
+.error{
+  color: red;
+}
