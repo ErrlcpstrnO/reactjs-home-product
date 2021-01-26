@@ -18,7 +18,6 @@ const data= {
     ],
     products: [
       {
-          _id: "1",
           name: "Men's Boxer",
           category: "Brief",
           image:'/images/brief1.jpg',
@@ -30,7 +29,6 @@ const data= {
           description: "100% Cotton and good quality"
       },
       {
-          _id: "2",
           name: "BENCH",
           category: "Bench",
           image:'/images/brief2.jpg',
@@ -42,7 +40,6 @@ const data= {
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
       },
       {
-          _id: "3",
           name: "shopee",
           category: "Brief",
           image:'/images/brief3.jpg',
@@ -54,7 +51,6 @@ const data= {
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
       },
       {
-          _id: "4",
           name: "Stetchable Briefs",
           category: "Brief",
           image:'/images/brief4.jpg',
@@ -66,7 +62,6 @@ const data= {
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
       },
       {
-          _id: "5",
           name: "Men’s brief 6pcs",
           category: "Brief",
           image:'/images/brief5.jpg',
@@ -78,7 +73,6 @@ const data= {
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
       },
       {
-          _id: "6",
           name: "Brief WALKER",
           category: "Brief",
           image:'/images/brief6.jpg',
@@ -90,7 +84,6 @@ const data= {
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
       },
       {
-          _id: "7",
           name: "Hipster Brief",
           category: "Brief",
           image:'/images/brief7.jpg',
@@ -102,7 +95,6 @@ const data= {
           description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
       },
       {
-          _id: "8",
           name: "Asstd Briefs",
           category: "Brief",
           image:'/images/brief8.jpg',
