@@ -143,6 +143,9 @@ a.product{
   flex: 2 1 50rem;
   margin: 1rem;
 }
+.min-30 {
+  min-width: 30rem;
+}
 img{
   border-radius: 0.5rem;
 
