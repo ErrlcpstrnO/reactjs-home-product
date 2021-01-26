@@ -150,6 +150,11 @@ img{
   border-radius: 0.5rem;
 
 }
+img.small{
+  max-width: 10rem;
+  width: 100%;
+
+}
 img.medium{
   max-width: 29rem;
   width: 100%;
