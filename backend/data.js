@@ -29,7 +29,7 @@ const data= {
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
         },
         {
-            name: "KOREAN INSPIRED OVERSIZED",
+            name: "KOREAN OVERSIZED",
             category: "TShirt",
             image:'/images/tShirt2.jpg',
             price: 100,
@@ -51,7 +51,7 @@ const data= {
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
         },
         {
-            name: "oversized shirt for women",
+            name: "Shirt for women",
             category: "T-Shirt",
             image:'/images/tShirt4.jpg',
             price: 100,
@@ -62,7 +62,7 @@ const data= {
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
         },
         {
-            name: "Only.Fashion Oversized Tshirt",
+            name: " Oversized Tshirt",
             category: "T-Shirt",
             image:'/images/tShirt5.jpg',
             price: 160,
@@ -73,7 +73,7 @@ const data= {
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur." 
         },
         {
-            name: "Oversized T-shirts Anime",
+            name: "T-shirts Anime",
             category: "T-Shirt",
             image:'/images/tShirt6.jpg',
             price: 219,
