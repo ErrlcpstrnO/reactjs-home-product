@@ -215,6 +215,12 @@ h2.title{
 .error{
   color: red;
 }
+.alert-success{
+  color: rgb(37, 43, 37);
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+  background-color: #61a740;
+}
 .alert{
   padding: 1rem;
   border: 0.1rem solid transparent;
