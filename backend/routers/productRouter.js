@@ -41,14 +41,14 @@ productRouter.post(
   isAdmin,
   expressAsyncHandler(async (req, res) => {
     const product = new Product({
-      name: 'samle name ' + Date.now(),
-      image: '/images/p1.jpg',
+      name: 'sample name ' + Date.now(),
+      image: '/images/brief3.jpg',
       price: 0,
       category: 'sample category',
       brand: 'sample brand',
       countInStock: 0,
       rating: 0,
-      numReview: 0,
+      numReviews: 0,
       description: 'sample description',
     });
     const createdProduct = await product.save();

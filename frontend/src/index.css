@@ -194,6 +194,10 @@ h2.title{
   color: rgb(194, 193, 193);
 
 }
+h1,
+label{
+  color: rgb(194, 193, 193);
+}
 .llist{
   color: rgb(173, 173, 173);
 }
