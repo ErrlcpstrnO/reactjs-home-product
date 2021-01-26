@@ -29,7 +29,7 @@ function App() {
     <header className="row">
         <div>
         <Link className="brand" to="/">
-        Home Products
+        Kalzada
         </Link>
         </div>
         <div>
