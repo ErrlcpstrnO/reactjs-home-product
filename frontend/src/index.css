@@ -191,8 +191,11 @@ h2.title{
 
 }
 .title{
-  color: rgb(245,245,245);
+  color: rgb(194, 193, 193);
 
+}
+.llist{
+  color: rgb(173, 173, 173);
 }
 .rating span{
   color: #bd9e4b;
