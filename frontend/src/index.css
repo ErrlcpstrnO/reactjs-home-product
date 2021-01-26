@@ -157,7 +157,7 @@ img.small{
 }
 img.medium{
   max-width: 29rem;
-  max-height: 29rem;
+  max-height: 30rem;
   width: 100%;
   height: 100%;
 
@@ -270,4 +270,25 @@ h2.title{
 .checkout-steps > div.active {
   border-top-color: #f08000;
   color: #f08000;
+}
+button.small {
+  font-size: 1.2rem;
+}
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table tbody tr:nth-of-type(odd) {
+  background-color: #363232;
+}
+.table td,
+.table th {
+  text-align: left;
+  border: 0.1rem solid #312f2f;
+  padding: 0.5rem;
+}
+.table button {
+  margin: 0 0.2rem;
 }
